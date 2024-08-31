@@ -63,8 +63,8 @@ const ContactPart = () => {
             <div className="h-[8vw] w-[8vw] rounded-[50%] bg-blue-600 hover:bg-blue-700 duration-100 ease-in flex items-center justify-center text-[1vw] text-white font-semibold absolute top-[40%] left-[50%]"><a href="mailto:naim.saim74@gmail.com">Get in touch</a></div>
 
             <div className="mt-[10vw] text-white flex gap-[1vw] justify-end pr-[2vw]">
-                <a className="https://github.com/naim3450">Github</a>
-                <a className="https://www.linkedin.com/in/naim-hasan-166b3130a/">Linkedin</a>
+                <a href="https://github.com/naim3450">Github</a>
+                <a href="https://www.linkedin.com/in/naim-hasan-166b3130a/">Linkedin</a>
             </div>
         </div>
     )
