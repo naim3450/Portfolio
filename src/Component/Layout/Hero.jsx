@@ -45,7 +45,7 @@ const Hero = () => {
 
     function mouseMove(e) {
         gola.current.style.display = `block`
-        gsap.from('.golaDiv', {
+        gsap.to('.golaDiv', {
             top: e.pageY - 50,
             left: e.pageX - 50
         })
@@ -83,7 +83,7 @@ const Hero = () => {
             <div className="h-[100vh] w-[100vw] star"></div>
 
             <div
-                className="bg-white h-[5vw] w-[5vw] rounded-[50%] absolute hidden mix-blend-difference golaDiv z-[1]" ref={gola}>
+                className="bg-white h-[5vw] w-[5vw] scale-[0.7] rounded-[50%] absolute hidden mix-blend-difference golaDiv z-[1]" ref={gola}>
             </div>
 
             <div className="flex">
